@@ -9,7 +9,7 @@ This document describes how to get help with Higbee Associates projects. Individ
 | Bug in a product repository | Open a **Bug report** issue using the template |
 | New capability or improvement | Open a **Feature request** issue |
 | How do I… / setup questions | Ask in the team channel for that product, or open a **Task** if work is needed |
-| Security concern | Follow [`SECURITY.md`](./SECURITY.md) — do not post publicly |
+| Security concern | Follow [`SECURITY.md`](https://github.com/higbee-associates/.github/blob/main/SECURITY.md) — do not post publicly |
 | Access / permissions | Contact your team lead or organization admins |
 
 ## Before opening an issue

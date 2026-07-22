@@ -8,12 +8,13 @@ Files here are used as **defaults** for every repository in the organization tha
 
 | File / path | Purpose |
 | --- | --- |
-| `CONTRIBUTING.md` | How to contribute across Higbee repositories |
-| `CODE_OF_CONDUCT.md` | Expected standards of collaboration |
-| `SECURITY.md` | How to report security vulnerabilities |
-| `SUPPORT.md` | Where to get help |
-| `.github/ISSUE_TEMPLATE/` | Default issue forms and chooser config |
-| `.github/pull_request_template.md` | Default pull request checklist |
+| [`profile/README.md`](./profile/README.md) | Organization profile README (shown on the org Overview) |
+| [`CONTRIBUTING.md`](./CONTRIBUTING.md) | How to contribute across Higbee repositories |
+| [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) | Expected standards of collaboration |
+| [`SECURITY.md`](./SECURITY.md) | How to report security vulnerabilities |
+| [`SUPPORT.md`](./SUPPORT.md) | Where to get help |
+| [`.github/ISSUE_TEMPLATE/`](./.github/ISSUE_TEMPLATE/) | Default issue forms and chooser config |
+| [`.github/pull_request_template.md`](./.github/pull_request_template.md) | Default pull request checklist |
 
 ## Precedence
 

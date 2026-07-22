@@ -214,7 +214,7 @@ Include environment (local / staging / production), service name, and enough con
 
 ## Security
 
-Do **not** open public issues for security vulnerabilities. Follow [`SECURITY.md`](./SECURITY.md).
+Do **not** open public issues for security vulnerabilities. Follow [`SECURITY.md`](https://github.com/higbee-associates/.github/blob/main/SECURITY.md).
 
 Additional expectations:
 
@@ -234,4 +234,4 @@ Additional expectations:
 
 ## Questions
 
-See [`SUPPORT.md`](./SUPPORT.md). For release mechanics on AVP, start with that repo’s `docs/RELEASE.md` and `docs/development/semantic-release.md`.
+See [`SUPPORT.md`](https://github.com/higbee-associates/.github/blob/main/SUPPORT.md). For release mechanics on AVP, start with that repository’s `docs/RELEASE.md` and `docs/development/semantic-release.md` (for example [AVP backend releases](https://github.com/higbee-associates/attorney-vendor-portal-backend/blob/main/docs/RELEASE.md)).

@@ -57,7 +57,7 @@ Product surfaces adjacent to HACA consumer advocacy workflows.
 - Keep secrets out of git; follow each repo’s `SECURITY.md` / contributing guide  
 - Use organization defaults from this [`.github`](https://github.com/higbee-associates/.github) repo when a project doesn’t define its own templates  
 
-See [`CONTRIBUTING.md`](../CONTRIBUTING.md) for contribution norms and [`SECURITY.md`](../SECURITY.md) for vulnerability reporting.
+See [`CONTRIBUTING.md`](https://github.com/higbee-associates/.github/blob/main/CONTRIBUTING.md) for contribution norms and [`SECURITY.md`](https://github.com/higbee-associates/.github/blob/main/SECURITY.md) for vulnerability reporting.
 
 ---
 
@@ -90,7 +90,7 @@ Repos that define their own `.github/ISSUE_TEMPLATE/` (or other health files) ov
 | | |
 | --- | --- |
 | Firm | [higbeeassociates.com](https://www.higbeeassociates.com) |
-| LinkedIn | [Law Firm of Higbee & Associates](https://www.linkedin.com/company/law-firm-of-higbee-&-associates) |
+| LinkedIn | [Law Firm of Higbee & Associates](https://www.linkedin.com/company/law-firm-of-higbee-%26-associates) |
 | Org defaults | [higbee-associates/.github](https://github.com/higbee-associates/.github) |
 
 ---
