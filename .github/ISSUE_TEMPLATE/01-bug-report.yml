@@ -1,0 +1,79 @@
+name: Bug report
+description: Report unexpected behavior with reproduction steps
+title: "[Bug]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Fill out as much as you can so we can reproduce and fix it quickly.
+        Do **not** include secrets, credentials, or sensitive client data.
+  - type: input
+    id: repository-context
+    attributes:
+      label: Repository / service
+      description: Which app or service is affected?
+      placeholder: e.g. attorney-vendor-portal-backend
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Local
+        - Develop / staging
+        - Production
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Clear description of what went wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps that reliably reproduce the issue.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs / screenshots / error messages
+      description: Paste relevant logs (redact secrets) or describe screenshots.
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit / release
+      description: Branch name, tag, or commit SHA if known.
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+    validations:
+      required: false

@@ -1,0 +1,65 @@
+name: Feature request
+description: Propose a new capability or product improvement
+title: "[Feature]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem you want to solve and the outcome you expect.
+        Do **not** include secrets or sensitive client data.
+  - type: input
+    id: repository-context
+    attributes:
+      label: Repository / service
+      description: Which app or service should own this work?
+      placeholder: e.g. attorney-vendor-portal-frontend
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / opportunity
+      description: What user or business need does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How should this work from the user’s perspective?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches you evaluated and why they were rejected.
+    validations:
+      required: false
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority (your assessment)
+      options:
+        - Nice to have
+        - Should have
+        - Must have / blocking
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How will we know this is done?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+    validations:
+      required: false

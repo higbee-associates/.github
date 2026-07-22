@@ -1,0 +1,49 @@
+name: Task
+description: Track work that is neither a bug nor a feature request
+title: "[Task]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for chores, tech debt, docs, migrations, and other tracked work.
+  - type: input
+    id: repository-context
+    attributes:
+      label: Repository / service
+      placeholder: e.g. attorney-vendor-portal-backend
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should be accomplished?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / notes
+      description: Relevant links, constraints, and out-of-scope items.
+    validations:
+      required: false
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Checklist
+      value: |
+        - [ ] Step 1
+        - [ ] Step 2
+    validations:
+      required: false
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority (your assessment)
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
