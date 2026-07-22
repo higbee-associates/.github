@@ -21,6 +21,8 @@ We are the IT / engineering team for **HACA** — the consumer advocacy division
   &nbsp;·&nbsp;
   <a href="https://raven-api.higbee.law/horizon"><img src="https://raw.githubusercontent.com/higbee-associates/.github/main/profile/assets/horizon-icon.svg" alt="" height="18" />&nbsp;<strong>Raven Horizon</strong></a>
   &nbsp;·&nbsp;
+  <a href="https://app.haca-compliance.com"><img src="https://raw.githubusercontent.com/higbee-associates/.github/main/profile/assets/crm-logo.png" alt="" height="18" />&nbsp;<strong>Compliance CRM</strong></a>
+  &nbsp;·&nbsp;
   <a href="https://inspector.higbee.law"><img src="https://raw.githubusercontent.com/higbee-associates/.github/main/profile/assets/compliance-ai-icon.png" alt="" height="18" />&nbsp;<strong>Compliance AI</strong></a>
 </p>
 
@@ -29,6 +31,7 @@ We are the IT / engineering team for **HACA** — the consumer advocacy division
 - [Raven Specs](https://raven-user-guide.higbee.law) — Raven user guide & product docs ([GitHub](https://github.com/higbee-associates/raven-user-guide))  
 - [Org Docs (Owlbert)](https://owlbert.moxieit.net/doku.php) — internal wiki / API docs  
 - [Raven Horizon](https://raven-api.higbee.law/horizon) — Laravel Horizon (queues / failed jobs)  
+- [Compliance CRM](https://app.haca-compliance.com) — compliance CRM app  
 - [Compliance AI](https://inspector.higbee.law) — AI compliance inspector  
 
 ---
